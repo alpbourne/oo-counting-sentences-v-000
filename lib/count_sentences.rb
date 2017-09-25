@@ -27,9 +27,7 @@ class String
   end
 
   def count_sentences
-    count_sentences = []
-    count_sentences << self.split(/[.?!]/).delete(' ').count
-    count_sentences
+    self.split(/[.?!]/).delete(' ').count
   end
 
 end
