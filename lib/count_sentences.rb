@@ -30,6 +30,5 @@ class String
     self.split
     self.delete_if(|value| value == " ")
     self.count
-
   end
 end
