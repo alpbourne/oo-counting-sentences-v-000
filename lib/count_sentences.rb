@@ -28,9 +28,8 @@ class String
 
   def count_sentences
     count_sentences = []
-    self.split(/[.?!]/)
-    self.delete(' ')
-    self.count
+    count_sentences << self.split(/[.?!]/).delete(' ').count
+    count_sentences
   end
 
 end
