@@ -27,7 +27,8 @@ class String
   end
 
   def count_sentences
-    self.split(/[.?!]/).squish.count
+    count_sentences = []
+    count_sentences << self.split(/[.?!]/).squish
   end
 
 end
